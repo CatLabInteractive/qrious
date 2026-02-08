@@ -331,7 +331,7 @@
       var qrious = this.qrious;
       var padding = qrious.padding;
 
-      if (padding != null) {
+      if (padding != null && padding > 0) {
         return padding;
       }
 
