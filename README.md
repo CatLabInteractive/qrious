@@ -10,6 +10,14 @@
 
 [QRious](https://github.com/neocotic/qrious) is a pure JavaScript library for generating QR codes using HTML5 canvas.
 
+> **CatLab fork.** This package is published on npm as `@catlab/qrious`. It is upstream QRious 4.0.2 plus the
+> padding fix from [neocotic/qrious#119](https://github.com/neocotic/qrious/pull/119), which upstream has not
+> released. Install it under the original name so existing `node_modules/qrious` paths keep working:
+>
+> ``` bash
+> $ npm install --save qrious@npm:@catlab/qrious
+> ```
+
 [![Chat](https://img.shields.io/gitter/room/neocotic/qrious.svg?style=flat-square)](https://gitter.im/neocotic/qrious)
 [![Demo](https://img.shields.io/badge/demo-live-brightgreen.svg?style=flat-square)](https://codepen.io/neocotic/pen/YQzmBm)
 [![Dev Dependency Status](https://img.shields.io/david/dev/neocotic/qrious.svg?style=flat-square)](https://david-dm.org/neocotic/qrious?type=dev)
