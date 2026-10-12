@@ -1,10 +1,10 @@
 {
-  "name": "qrious",
-  "version": "4.0.2",
-  "description": "Library for QR code generation using canvas",
-  "homepage": "https://github.com/neocotic/qrious",
+  "name": "@catlab/qrious",
+  "version": "4.0.3",
+  "description": "CatLab fork of QRious, a library for QR code generation using canvas (upstream 4.0.2 plus the padding fix from neocotic/qrious#119)",
+  "homepage": "https://github.com/CatLabInteractive/qrious",
   "bugs": {
-    "url": "https://github.com/neocotic/qrious/issues"
+    "url": "https://github.com/CatLabInteractive/qrious/issues"
   },
   "author": {
     "name": "Alasdair Mercer",
@@ -21,8 +21,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/neocotic/qrious.git"
+    "url": "git+https://github.com/CatLabInteractive/qrious.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "LICENSE.md",
+    "README.md"
+  ],
   "devDependencies": {
     "eslint-config-notninja": "^0.1.1",
     "grunt": "^1.0.1",
